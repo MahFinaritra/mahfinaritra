@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--headingColor);
+  color: var(--white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color:  var(--greyDark);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: var(--primaryColor);
+}
+
+p {
+  color: var(--silver);
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.flexsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 17px;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  padding: 0px 50px;
+  height: 105px;
+  border-radius: 50px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: none;
+  border: 2px solid var(--primaryColor);
+}
+
+/*--------------header---------------*/
+header {
+  background-color: var(--headingColor);
+  height: 11vh; /*----nisy namboarina----10vh*/
+  line-height: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header a {
+  margin-left: 40px;
+}
+
+.toggle {
+  cursor: pointer;
+  color: var(--white);
+  display: none;
+}
+
+.logoM {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  header {  /*----nisy namboarina----tsy misy*/
+    height: 18vh;
+  }
+
+  header .nav {
+    display: none;
+  }
+
+  header a {
+    width: 100%;
+    display: block;
+    color: var(--white);
+  }
+
+  .toggle {
+    display: block;
+    background: none;
+    font-style: 25px;
+  }
+
+  .hideMenu {
+    display: block;
+    position: absolute;
+    top: 18vh;  /*----nisy namboarina----10vh*/
+    left:  0;
+    width: 100%;
+    background-color: var(--headingColor);
+  }
+
+  .logoM {
+    padding-top: 25px;
+  }
+
+
+}
+/*--------------header---------------*/
+section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+/*--------------hero-----------------*/
+.hero {
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../public/images/home-pg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 90vh;
+  filter: grayscale(100%) brightness(50%) blur(3px);
+}
+
+.heroContainer {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+/*--------------hero-----------------*/
+.heading {
+  font-size: 30px;
+  color: var(--primaryColor);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/*--------------about-----------------*/
+.about .primaryBtn {
+  margin-left: 20px;
+}
+
+.about .heading {
+  text-align: left;
+  margin: 0;
+}
+
+.left {
+  width: 35%;
+  margin-right: 25px; /*----nisy namboarina----tsy nisy*/
+}
+
+.right {
+  width: 65%;
+}
+/*--------------about-----------------*/
