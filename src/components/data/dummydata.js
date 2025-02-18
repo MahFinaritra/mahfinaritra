@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
+import {Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
     PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, Youtube
 } from "@mui/icons-material"
 
@@ -12,16 +12,16 @@ export const navlink = [
         text: "About"
     },
     {
+        url: "/services",
+        text: "Services"
+    },
+    {
         url: "/portfolio",
         text: "Portfolio"
     },
     {
         url: "/contact",
         text: "Contact"
-    },
-    {
-        url: "/services",
-        text: "Services"
     },
     {
         url: "/blog",
@@ -48,3 +48,42 @@ export const about = [
         cover: "./images/man.png",
     }
 ]
+
+export const services = [
+    {
+      id: 1,
+      icon: <Settings />,
+      title: "Creative Design",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+    {
+      id: 2,
+      icon: <CropRotate />,
+      title: "Clean Code",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+    {
+      id: 3,
+      icon: <ViewInAr />,
+      title: "Responsive Design",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+    {
+      id: 4,
+      icon: <PieChart />,
+      title: "Material UI	",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+    {
+      id: 5,
+      icon: <Code />,
+      title: "Material UI Icons",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+    {
+      id: 6,
+      icon: <BarChart />,
+      title: "Awesome Support",
+      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    },
+  ]
