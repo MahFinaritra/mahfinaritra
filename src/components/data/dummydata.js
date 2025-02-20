@@ -87,3 +87,75 @@ export const services = [
       desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
     },
   ]
+
+  export const project = [
+    {
+      id: 1,
+      icon: <CloudOutlined />,
+      num: "89",
+      title: "HAPPY CLIENTS",
+    },
+    {
+      id: 2,
+      icon: <FavoriteBorder />,
+      num: "231",
+      title: "PROJECTS COMPLEATED",
+    },
+    {
+      id: 3,
+      icon: <Public />,
+      num: "108",
+      title: "FILES DOWNLOADED",
+    },
+    {
+      id: 4,
+      icon: <PersonOutlined />,
+      num: "1446",
+      title: "LIENS OF CODE",
+    },
+  ]
+
+  export const portfolio = [
+    {
+      id: 1,
+      cover: "../images/port/port1.jpg",
+      name: "Brand",
+      category: "marketing",
+      title: "Brex Logo",
+    },
+    {
+      id: 2,
+      cover: "../images/port/port2.jpg",
+      name: "Brand",
+      category: "design",
+      title: "Brex Logo",
+    },
+    {
+      id: 3,
+      cover: "../images/port/port3.jpg",
+      name: "Brand",
+      category: "development",
+      title: "Brex Logo",
+    },
+    {
+      id: 4,
+      cover: "../images/port/port4.jpg",
+      name: "Brand",
+      category: "marketing",
+      title: "Brex Logo",
+    },
+    {
+      id: 5,
+      cover: "../images/port/port5.jpg",
+      name: "Brand",
+      category: "design",
+      title: "Brex Logo",
+    },
+    {
+      id: 6,
+      cover: "../images/port/port6.jpg",
+      name: "Brand",
+      category: "development",
+      title: "Brex Logo",
+    },
+  ]
