@@ -1,5 +1,5 @@
 import {Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
-    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, Youtube
+    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube
 } from "@mui/icons-material"
 
 export const navlink = [
@@ -157,5 +157,63 @@ export const services = [
       name: "Brand",
       category: "development",
       title: "Brex Logo",
+    },
+  ]
+
+  export const blog = [
+    {
+      id: 1,
+      title: "Master These Awesome",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b1.png",
+    },
+    {
+      id: 2,
+      title: "Best Design Items to Appeal",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b2.png",
+    },
+    {
+      id: 3,
+      title: "The 20 Best Lightroom Presets",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b3.png",
+    },
+  ]
+  export const contact = [
+    {
+      icon: <AddLocationAltOutlined />,
+      text1: "2651 Main Street, Suit 124",
+      text2: "Seattle, WA, 98101",
+    },
+    {
+      icon: <PhoneIphone />,
+      text1: "0123456789",
+      text2: "0345627891",
+    },
+    {
+      icon: <EmailOutlined />,
+      text1: "hello@thetheme.io",
+      text2: "inf0@brex-theme.io",
+    },
+  ]
+  export const social = [
+    {
+      icon: <Facebook />,
+    },
+    {
+      icon: <Twitter />,
+    },
+    {
+      icon: <Instagram />,
+    },
+    {
+      icon: <YouTube />,
     },
   ]
