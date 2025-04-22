@@ -1,5 +1,6 @@
 import {Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
-    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, Youtube
+    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, Youtube,
+    YouTube
 } from "@mui/icons-material"
 
 export const navlink = [
@@ -18,6 +19,10 @@ export const navlink = [
     {
         url: "/portfolio",
         text: "Portfolio"
+    },
+    {
+      url: "/testimonials",
+      text: "Testimonials",
     },
     {
         url: "/contact",
@@ -86,9 +91,9 @@ export const services = [
       title: "Awesome Support",
       desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
     },
-  ]
+]
 
-  export const project = [
+export const project = [
     {
       id: 1,
       icon: <CloudOutlined />,
@@ -113,9 +118,9 @@ export const services = [
       num: "1446",
       title: "LIENS OF CODE",
     },
-  ]
+]
 
-  export const portfolio = [
+export const portfolio = [
     {
       id: 1,
       cover: "../images/port/port1.jpg",
@@ -158,4 +163,85 @@ export const services = [
       category: "development",
       title: "Brex Logo",
     },
-  ]
+]
+
+export const testimonials = [
+    {
+      id: 1,
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+      image: "./images/testimonials/team-1.png",
+      name: "Alamin Musa",
+      post: "Front End Developer",
+    },
+    {
+      id: 2,
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+      image: "./images/testimonials/team-2.png",
+      name: "Alex Ander",
+      post: "Back End Developer",
+    },
+    {
+      id: 3,
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+      image: "./images/testimonials/team-3.png",
+      name: "GorkCoder",
+      post: "React Developer",
+    },
+]
+export const blog = [
+    {
+      id: 1,
+      title: "Master These Awesome",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b1.png",
+    },
+    {
+      id: 2,
+      title: "Best Design Items to Appeal",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b2.png",
+    },
+    {
+      id: 3,
+      title: "The 20 Best Lightroom Presets",
+      date: "Jun 27, 2022",
+      author: "Dorian Gray",
+      desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+      cover: "./images/blog/b3.png",
+    },
+]
+export const contact = [
+    {
+      icon: <AddLocationAltOutlined />,
+      text1: "2651 Main Street, Suit 124",
+      text2: "Seattle, WA, 98101",
+    },
+    {
+      icon: <PhoneIphone />,
+      text1: "0123456789",
+      text2: "0345627891",
+    },
+    {
+      icon: <EmailOutlined />,
+      text1: "hello@thetheme.io",
+      text2: "inf0@brex-theme.io",
+    },
+]
+export const social = [
+    {
+      icon: <Facebook />,
+    },
+    {
+      icon: <Twitter />,
+    },
+    {
+      icon: <Instagram />,
+    },
+    {
+      icon: <YouTube />,
+    }
+]
