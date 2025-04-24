@@ -8,6 +8,8 @@ const allCategory = ['all', ...new Set(portfolio.map((item) => item.category))]
 export const Portfolio = () => {
     const [list, setLists] = useState(portfolio)
     const [category, setCategory] = useState(allCategory)
+    console.log(setCategory)
+    
     const filterItems = (category) => {
         const newItems = portfolio.filter((item) => item.category === category)
         setLists(newItems)

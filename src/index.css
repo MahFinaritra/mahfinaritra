@@ -311,6 +311,7 @@ article .box:hover .overlay::after{
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 150px;/*----nisy namboarina----tsy nisy*/
 }
 
 .testimonials::after {
@@ -319,7 +320,6 @@ article .box:hover .overlay::after{
 
 .testimonials .box{
   max-width: 60%;
-  margin: auto;
 }
 
 .testimonials i{
@@ -357,3 +357,17 @@ label {
 }
 
 /*--------------testimonials-----------------*/
+/*--------------blog-----------------*/
+.blog img {
+  width: 100%;
+}
+
+.blog .box {
+  background-color: var(--primaryBackground);
+  border-radius: 10px;
+}
+
+.blog .text {
+  padding: 10px 30px;
+}
+/*--------------blog-----------------*/
