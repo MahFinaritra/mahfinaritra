@@ -1,6 +1,5 @@
 import {Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
-    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, Youtube,
-    YouTube
+    PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube
 } from "@mui/icons-material"
 
 export const navlink = [
@@ -187,8 +186,10 @@ export const testimonials = [
       name: "GorkCoder",
       post: "React Developer",
     },
-]
-export const blog = [
+
+  ]
+
+  export const blog = [
     {
       id: 1,
       title: "Master These Awesome",
@@ -213,8 +214,8 @@ export const blog = [
       desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
       cover: "./images/blog/b3.png",
     },
-]
-export const contact = [
+  ]
+  export const contact = [
     {
       icon: <AddLocationAltOutlined />,
       text1: "2651 Main Street, Suit 124",
@@ -230,8 +231,8 @@ export const contact = [
       text1: "hello@thetheme.io",
       text2: "inf0@brex-theme.io",
     },
-]
-export const social = [
+  ]
+  export const social = [
     {
       icon: <Facebook />,
     },
@@ -243,5 +244,5 @@ export const social = [
     },
     {
       icon: <YouTube />,
-    }
-]
+    },
+  ]
