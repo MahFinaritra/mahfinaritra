@@ -1,3 +1,9 @@
+*,                        /**/
+*::before,                /**/  
+*::after {                /**tsy nisy teo**/
+  box-sizing: border-box; /**/
+}                         /**/  
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -311,7 +317,7 @@ article .box:hover .overlay::after{
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-bottom: 150px;/*----nisy namboarina----tsy nisy*/
+  padding-bottom: 144px;/*----nisy namboarina----tsy nisy*/
 }
 
 .testimonials::after {
@@ -371,3 +377,29 @@ label {
   padding: 10px 30px;
 }
 /*--------------blog-----------------*/
+/*--------------contact-----------------*/
+.contact {
+  margin: 20px 0;
+}
+
+.contact .right,
+.contact .left {
+  padding: 20px;
+}
+
+.contact .flex input:nth-child(1) {
+  margin-right: 10px;
+}
+
+.contact button,
+.contact input,
+.contact textarea{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/*--------------contact-----------------*/

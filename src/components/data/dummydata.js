@@ -218,18 +218,18 @@ export const testimonials = [
   export const contact = [
     {
       icon: <AddLocationAltOutlined />,
-      text1: "2651 Main Street, Suit 124",
-      text2: "Seattle, WA, 98101",
+      text1: "Lot VV5 Ambohimitsimbina",
+      text2: "Antananarivo, Madagascar",
     },
     {
       icon: <PhoneIphone />,
-      text1: "0123456789",
-      text2: "0345627891",
+      text1: "+261348496069",
+      text2: "+261337533088",//0345627891
     },
     {
       icon: <EmailOutlined />,
-      text1: "hello@thetheme.io",
-      text2: "inf0@brex-theme.io",
+      text1: "maheryfinaritraandrianarison@gmail.com",//hello@thetheme.io
+      //text2: "fb: Mahery Finaritra",//inf0@brex-theme.io
     },
   ]
   export const social = [

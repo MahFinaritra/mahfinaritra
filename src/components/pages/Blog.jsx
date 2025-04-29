@@ -5,6 +5,7 @@ import { blog } from "../data/dummydata";
 export const Blog = () => {
     return (
         <>
+            <br />        
             <section className="blog">
                 <div className="container">
                     <Heading title="Blog"></Heading>
