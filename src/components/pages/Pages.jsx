@@ -13,6 +13,7 @@ import { Portfolio } from "./Portfolio";
 import { Testimonials } from "./Testimonials";
 import { Blog } from "./Blog";
 import { Contact } from "./Contact";
+import { Footer } from "../common/Footer";
 
 export const Pages = () => {
     return (
@@ -28,6 +29,7 @@ export const Pages = () => {
                   <Route exact path= "/blog" component = {Blog}></Route>
                   <Route exact path= "/contact" component = {Contact}></Route>
                 </Switch>
+                <Footer></Footer>
             </Router>
         </>
     )

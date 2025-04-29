@@ -37,7 +37,7 @@ export const home = [
     {
         text: "HELLO I'M",
         name: "MAH FINARITRA",
-        post: "MOBILE AND WEB DEVELOPER",
+        post: "MOBILE & WEB DEVELOPER",
         role: "FRONT-END DEVELOPER",
         desc: "Passionate about creating seamless and effective digital experiences, I specialize in mobile and web application development. With a foundation in modern technologies like FLUTTER and REACT.JS, I strive to create scalable and user-friendly solutions that meet the needs of customers and users. Always eager to learn from the tech world."
     }

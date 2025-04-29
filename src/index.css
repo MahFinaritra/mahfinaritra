@@ -100,10 +100,6 @@ header a {
 }
 
 @media screen and (max-width: 768px) {
-  header {  /*----nisy namboarina----tsy misy*/
-    height: 18vh;
-  }
-
   header .nav {
     display: none;
   }
@@ -115,6 +111,7 @@ header a {
   }
 
   .toggle {
+    margin-top: -1.5vh; /*----nisy namboarina----tsy nisy*/
     display: block;
     background: none;
     font-style: 25px;
@@ -123,7 +120,7 @@ header a {
   .hideMenu {
     display: block;
     position: absolute;
-    top: 18vh;  /*----nisy namboarina----10vh*/
+    top: 10vh;  /*----nisy namboarina----10vh*/
     left:  0;
     width: 100%;
     background-color: var(--headingColor);
@@ -403,3 +400,50 @@ label {
 }
 
 /*--------------contact-----------------*/
+/*--------------footer-----------------*/
+footer {
+  text-align: center;
+  background-color: var(--primaryBackground);
+  padding: 70px;
+  margin-top: 50px;
+}
+
+footer i {
+  margin: 5px;
+  color: var(--primaryColor);
+}
+/*--------------footer-----------------*/
+
+@media screen and (max-width:768px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .heroContainer {
+    max-width: 90%; /*----80%---*/
+  }
+
+  .hero::after {
+    height: 65vh;
+  }
+
+  section {
+    height: auto;
+    padding-top: 125px; /*----50px----*/
+  }
+
+  .contact .flexsb,
+  .about .flex {
+    flex-direction: column;
+  }
+
+  .left, 
+  .right {
+    width: 100%;
+  }
+
+  .grid3,
+  .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
