@@ -5,6 +5,7 @@ import { services } from "../data/dummydata";
 export const Services = () => {
     return (
         <>
+            <br />
             <section className="services">
                 <div className="container">
                     <Heading title="Services"></Heading>
