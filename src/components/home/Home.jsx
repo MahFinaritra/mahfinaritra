@@ -19,6 +19,7 @@ export const Home = () => {
                 <Portfolio></Portfolio>
                 <Testimonials></Testimonials>
                 <Blog></Blog>
+                <br /><br />
                 <Contact></Contact>
             </div>
         </>
