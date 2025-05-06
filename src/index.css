@@ -181,6 +181,19 @@ section {
   margin-bottom: 60px;
 }
 
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.deuxBouton {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* ou 10px, 20px selon l'espacement désiré */
+  margin-top: 1rem;
+}
 /*--------------about-----------------*/
 .about .primaryBtn {
   margin-left: 20px;
@@ -199,6 +212,7 @@ section {
 .right {
   width: 65%;
 }
+
 /*--------------about-----------------*/
 
 .grid3 {
@@ -219,6 +233,10 @@ section {
 
 .services h3 {
   margin-top: 20px;
+}
+
+.services {
+  margin-top: 25px ;
 }
 /*--------------services-----------------*/
 
@@ -372,6 +390,10 @@ label {
 
 .blog .text {
   padding: 10px 30px;
+}
+
+.blog {
+  margin-bottom: 90px;
 }
 /*--------------blog-----------------*/
 /*--------------contact-----------------*/

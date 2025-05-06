@@ -6,10 +6,10 @@ export const Footer = () => {
         <footer>
             {social.map((item) => (
                 <>
-                    <i>{item.icon}</i>
+                    <i data-aos="zoom-in-left">{item.icon}</i>
                 </>
             ))}
-            <p>Lien vers mon profil</p>
+            <p data-aos="zoom-in-right">Lien vers mon profil</p>
         </footer>
     </>
 }
