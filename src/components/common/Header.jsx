@@ -12,16 +12,18 @@ export const Header = () => {
             <header>
                 <div className="container flexsb">
                     <div className="logo">
-                        <img className="logoM" src={logo} alt="Logo"/>
+                        <img className="logoM" src={logo} alt="Logo" data-aos="zoom-in-right" data-aos-duration="1500"/>
                     </div>
-                    <div className={responsive ? "hideMenu" : "nav"}>
+                    <div className={responsive ? "hideMenu" : "nav flex gap-4"}>
                         {navlink.map((links, i) => (
-                            <Link to = {links.url} key= {i} >
-                                {links.text}
-                            </Link>
+                            <div className="link" data-aos="zoom-in-left" data-aos-duration="1000">
+                                <Link to = {links.url} key= {i} >
+                                    {links.text}
+                                </Link>
+                            </div>
                         ))}
                     </div>
-                    <button className="toggle" onClick={() => setResponsive (!responsive)}>
+                    <button className="toggle" onClick={() => setResponsive (!responsive)} data-aos="zoom-in-left" data-aos-duration="1500">
                         <Menu className='icon' ></Menu>
                     </button>
                 </div>
