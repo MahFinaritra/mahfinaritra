@@ -15,11 +15,10 @@ export const Home = () => {
                 <Hero></Hero>
                 <About></About>
                 <Services></Services>
-                <Counter></Counter>
+                {/* <Counter></Counter> */}
                 <Portfolio></Portfolio>
                 <Testimonials></Testimonials>
                 <Blog></Blog>
-                <br /><br />
                 <Contact></Contact>
             </div>
         </>

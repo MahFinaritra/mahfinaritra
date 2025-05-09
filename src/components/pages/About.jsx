@@ -14,19 +14,27 @@ export const About = () => {
                             </div>
                             <div className="right" data-aos="fade-down-left">
                                 <div className="text-center">
-                                    <Heading title = "About Me"/>
+                                    <Heading title = "À propos de moi"/>
                                 </div>
                                 <p>{val.desc}</p>
                                 <p>{val.desc1}</p>
+                                <p>{val.desc2}</p>
+                                <p>{val.desc3}</p>
+                                <p>{val.desc4}</p>
                                 <div className="deuxBouton">
-                                    <button>Download CV</button>
-                                    <button className="primaryBtn">Download CV</button>
+                                    <a href="/contact">
+                                        <button>Contactez-moi</button>
+                                    </a>
+                                    <a href="/cv.pdf" download>
+                                        <button className="primaryBtn">Télécharger CV</button>
+                                    </a>                               
                                 </div>
                             </div>
                         </>
                     ))}
                 </div>
             </section>
+            <div className="end br"></div>
         </>
     )
 }

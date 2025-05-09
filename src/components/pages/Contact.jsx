@@ -18,7 +18,7 @@ export const Contact = () => {
                                 </div>
                                 <input className="inputSubject" type="text" placeholder='Subject' data-aos="zoom-in-up"/>
                                 <textarea data-aos="zoom-in-down" name="" id="" cols="30" rows="10"></textarea>
-                                <button data-aos="zoom-in-down">Submit</button>
+                                <button>Submit</button>
                             </form>
                         </div>
                         <div className="left">

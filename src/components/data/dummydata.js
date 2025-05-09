@@ -1,15 +1,15 @@
-import {Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
+import {Settings, CropRotate, ViewInAr, MobileFriendly, Code, BarChart, CloudOutlined, FavoriteBorder, Public, 
     PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube
 } from "@mui/icons-material"
 
 export const navlink = [
     {
         url: "/",
-        text: "Home",
+        text: "Accueil",
     },
     {
         url: "/about",
-        text: "About"
+        text: "À propos"
     },
     {
         url: "/services",
@@ -21,7 +21,7 @@ export const navlink = [
     },
     {
       url: "/testimonials",
-      text: "Testimonials",
+      text: "Témoignages",
     },
     {
         url: "/contact",
@@ -35,20 +35,21 @@ export const navlink = [
 
 export const home = [
     {
-        text: "HELLO I'M",
+        text: "BONJOUR, JE SUIS",
         name: "MAH FINARITRA",
-        post: "MOBILE & WEB DEVELOPER",
-        role: "FRONT-END DEVELOPER",
-        desc: "Passionate about creating seamless and effective digital experiences, I specialize in mobile and web application development. With a foundation in modern technologies like FLUTTER and REACT.JS, I strive to create scalable and user-friendly solutions that meet the needs of customers and users. Always eager to learn from the tech world."
+        post: "DÉVELOPPEUR MOBILE ET WEB",
+        role: "DÉVELOPPEUR FRONT-END",
+        desc: "Passionné par la création d’expériences numériques fluides et efficaces, je me spécialise dans le développement d’applications mobiles et web. Avec une base dans les technologies modernes comme FLUTTER et REACT.JS, je m’efforce de créer des solutions évolutives et conviviales qui répondent aux besoins des clients et des utilisateurs. Toujours désireux d’apprendre du monde de la technologie."
     }
 ]
 
 export const about = [
     {
-        desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-        desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-        desc2: "With a foundation in modern technologies like FLUTTER and REACT.JS, ",
-        desc3 :"I strive to create scalable and user-friendly solutions that meet the needs of customers and users",
+        desc: "Nom: ANDRIANARISON",
+        desc1: "Prénom: Mahery Finaritra",
+        desc2: "Né le: 31 Août 2001",
+        desc3 :"Domicile: Ambohimitsimbina",
+        desc4 :"Profession: Etudiant",
         cover: "./images/man.png",
     }
 ]
@@ -57,38 +58,32 @@ export const services = [
     {
       id: 1,
       icon: <Settings />,
-      title: "Creative Design",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      title: "Design Créatif",
+      desc: "Je crée des interfaces élégantes et originales qui valorisent votre image",
     },
     {
       id: 2,
       icon: <CropRotate />,
-      title: "Clean Code",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      title: "Code Propre",
+      desc: "J’écris un code clair, structuré et facile à maintenir pour garantir la qualité et la performance",
     },
     {
       id: 3,
       icon: <ViewInAr />,
-      title: "Responsive Design",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      title: "Design Responsive",
+      desc: "Chaque projet est pensé pour s’adapter parfaitement à tous les écrans, du mobile à l’ordinateur",
     },
     {
       id: 4,
-      icon: <PieChart />,
-      title: "Material UI	",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      icon: <MobileFriendly />,
+      title: "Application Mobile",
+      desc: "Je développe des applications mobiles performantes et intuitives pour Android et iOS",
     },
     {
       id: 5,
       icon: <Code />,
-      title: "Material UI Icons",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-    },
-    {
-      id: 6,
-      icon: <BarChart />,
-      title: "Awesome Support",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      title: "Réalisation De Site Web",
+      desc: "Je conçois des sites modernes, rapides et adaptés à vos besoins professionnels ou personnels",
     },
 ]
 
@@ -235,14 +230,14 @@ export const testimonials = [
   export const social = [
     {
       icon: <Facebook />,
-    },
-    {
-      icon: <Twitter />,
+      url: "https://www.facebook.com/maheryfinaritra.andrianarison5"
     },
     {
       icon: <Instagram />,
+      url: "https://www.instagram.com/maheryfinaritra?igsh=aTlzNHo2bndkNW8y"
     },
     {
       icon: <YouTube />,
+      url: "https://youtube.com/@mahfinaritra?si=CnLu4cGgj9gHVm8A"
     },
   ]

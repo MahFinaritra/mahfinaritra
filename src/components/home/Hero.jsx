@@ -15,10 +15,13 @@ export const Hero = () => {
                                 autoStart: true, loop: true }}/>
                         </h1>
                         <p data-aos="fade-left">{val.desc}</p>
-                        <button className="primaryBtn" data-aos="fade-up-right">Download CV</button>
+                        <a href="/cv.pdf" download>
+                            <button className="primaryBtn" data-aos="fade-up-right">Télécharger CV</button>
+                        </a>
                     </div>
                 ))}
             </section>
+            <div className="end br"></div>
         </>
     )
 }

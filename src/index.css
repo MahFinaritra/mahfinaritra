@@ -172,6 +172,17 @@ section {
   font-weight: 600;
   color: var(--primaryColor);
 }
+
+
+@media screen and (max-width:768px) {
+  .heroContainer h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
 /*--------------hero-----------------*/
 .heading {
   font-size: 30px;
@@ -206,11 +217,28 @@ section {
 
 .left {
   width: 35%;
-  margin-right: 25px; /*----nisy namboarina----tsy nisy*/
+  text-align: center;
+  margin-right: 50px;
 }
 
 .right {
   width: 65%;
+}
+
+.left img {
+  width: 275px;
+  height: 400px;
+}
+
+@media screen and (max-width:768px) {
+  .left img {
+    display: block;
+    margin: 0 auto 25px;
+  }
+
+  .end.br {
+    margin: 100px ;
+  }
 }
 
 /*--------------about-----------------*/
@@ -237,6 +265,16 @@ section {
 
 .services {
   margin-top: 25px ;
+  margin-bottom: 175px;
+}
+
+@media screen and (max-width:768px) {
+  .services,
+  .about,
+  .hero,
+  .blog {
+    padding-top: 0;
+  }
 }
 /*--------------services-----------------*/
 
@@ -406,6 +444,8 @@ label {
   padding: 20px;
 }
 
+
+
 .contact .flex input:nth-child(1) {
   margin-right: 10px;
 }
@@ -426,7 +466,7 @@ label {
 footer {
   text-align: center;
   background-color: var(--primaryBackground);
-  padding: 70px;
+  padding: 5px 50px 50px 50px;
   margin-top: 50px;
 }
 

@@ -35,6 +35,7 @@ export const Testimonials = () => {
                     </Slider>
                 </div>
             </div>
+            <div className="end br"></div>
         </>
     )
 }

@@ -4,12 +4,19 @@ import { social } from "../data/dummydata";
 export const Footer = () => {
     return <>
         <footer>
-            {social.map((item) => (
+            <p data-aos="zoom-in">Lien vers mon profil</p>
+            {social.map((item, index) => (
                 <>
-                    <i data-aos="zoom-in-left">{item.icon}</i>
+                    <a 
+                        key={index}
+                        href={item.url}
+                        target="_blank" 
+                        rel="noreferrer"
+                    >
+                        <i>{item.icon}</i>
+                    </a>
                 </>
             ))}
-            <p data-aos="zoom-in-right">Lien vers mon profil</p>
         </footer>
     </>
 }

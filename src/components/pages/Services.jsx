@@ -19,6 +19,7 @@ export const Services = () => {
                     </div>
                 </div>
             </section>
+            <div className="back br"></div>
         </>
     )
 }
