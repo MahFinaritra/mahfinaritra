@@ -205,7 +205,7 @@ section {
   gap: 1rem; /* ou 10px, 20px selon l'espacement désiré */
   margin-top: 1rem;
 }
-/*--------------about-----------------*/
+/*--------------about-----------------
 .about .primaryBtn {
   margin-left: 20px;
 }
@@ -241,7 +241,7 @@ section {
   }
 }
 
-/*--------------about-----------------*/
+--------------about-----------------*/
 
 .grid3 {
   display: grid;
@@ -249,6 +249,19 @@ section {
   grid-gap: 30px;
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem
+}
+
+.blog p {
+  margin-top: 0;
+}
+
+section.about {
+  margin-bottom: -75px;
+}
 /*--------------services-----------------*/
 .services .box {
   background-color: var(--primaryBackground);

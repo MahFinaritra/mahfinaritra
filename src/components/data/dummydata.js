@@ -16,41 +16,59 @@ export const navlink = [
         text: "Services"
     },
     {
-        url: "/portfolio",
-        text: "Portfolio"
+      url: "/formation",
+      text: "Formation"
     },
     {
-      url: "/testimonials",
-      text: "Témoignages",
+      url: "compétences",
+      text: "Compétences"
     },
     {
         url: "/contact",
         text: "Contact"
     },
-    {
+    /*{
         url: "/blog",
         text: "Blog"
     },
+    /*{
+        url: "/portfolio",
+        text: "Portfolio"
+    },*/
+    /*{
+      url: "/testimonials",
+      text: "Témoignages",
+    },*/
+    
+    
 ]
 
 export const home = [
     {
-        text: "BONJOUR, JE SUIS",
-        name: "MAH FINARITRA",
-        post: "DÉVELOPPEUR MOBILE ET WEB",
-        role: "DÉVELOPPEUR FRONT-END",
-        desc: "Passionné par la création d’expériences numériques fluides et efficaces, je me spécialise dans le développement d’applications mobiles et web. Avec une base dans les technologies modernes comme FLUTTER et REACT.JS, je m’efforce de créer des solutions évolutives et conviviales qui répondent aux besoins des clients et des utilisateurs. Toujours désireux d’apprendre du monde de la technologie."
+      text: "BONJOUR, JE SUIS",
+      name: "MAH FINARITRA",
+      post: "DÉVELOPPEUR MOBILE ET WEB",
+      role: "DÉVELOPPEUR FRONT-END",
+      desc: "Passionné par la création d’expériences numériques fluides et efficaces, je me spécialise dans le développement d’applications mobiles et web. Avec une base dans les technologies modernes comme FLUTTER et REACT.JS, je m’efforce de créer des solutions évolutives et conviviales qui répondent aux besoins des clients et des utilisateurs. Toujours désireux d’apprendre du monde de la technologie."
     }
 ]
 
 export const about = [
     {
-        desc: "Nom: ANDRIANARISON",
-        desc1: "Prénom: Mahery Finaritra",
-        desc2: "Né le: 31 Août 2001",
-        desc3 :"Domicile: Ambohimitsimbina",
-        desc4 :"Profession: Etudiant",
-        cover: "./images/man.png",
+      entête: "LANGUE",
+      type: [
+        { soustitre: "MALAGASY", commentaire: "Langue maternelle",  },
+        { soustitre: "FRANÇAIS", commentaire: "Courant",  },
+        { soustitre: "ANGLAIS", commentaire: "Intermédiaire", },
+      ],
+        /*cover: "./images/man.png",*/
+    },
+    {
+      entête: "CENTRES D'INTÉRÊT",
+      type: [
+        { soustitre: "BADMINTON", },
+        { soustitre: "PHOTOGRAPIE",  }
+      ],
     }
 ]
 

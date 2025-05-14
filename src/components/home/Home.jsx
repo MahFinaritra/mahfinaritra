@@ -7,6 +7,8 @@ import { Portfolio } from "../pages/Portfolio";
 import { Testimonials } from "../pages/Testimonials";
 import { Blog } from "../pages/Blog";
 import { Contact } from "../pages/Contact";
+import { Compétences } from "../pages/Compétence";
+import { Formation } from "../pages/Formation";
 
 export const Home = () => {
     return (
@@ -15,10 +17,12 @@ export const Home = () => {
                 <Hero></Hero>
                 <About></About>
                 <Services></Services>
-                {/* <Counter></Counter> */}
-                <Portfolio></Portfolio>
-                <Testimonials></Testimonials>
+                {/* <Counter></Counter> 
+                <Portfolio></Portfolio> 
+                <Testimonials></Testimonials>*/}
                 <Blog></Blog>
+                <Formation></Formation>
+                <Compétences></Compétences>
                 <Contact></Contact>
             </div>
         </>

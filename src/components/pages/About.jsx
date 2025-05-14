@@ -6,35 +6,27 @@ export const About = () => {
     return (
         <>
             <section className="about">
-                <div className="container flex">
-                    {about.map((val, i) => (
-                        <>
-                            <div className="left">
-                                <img src={val.cover} alt="" data-aos="fade-down-right"/>
-                            </div>
-                            <div className="right" data-aos="fade-down-left">
-                                <div className="text-center">
-                                    <Heading title = "À propos de moi"/>
+                <div className="container">
+                    <Heading title="À propos"/>
+                    <div className="content grid2">
+                        {about.map((item, index) => {
+                            return (
+                                <div className="blog" key={index}>
+                                    <div className="text">
+                                        <h3 data-aos="fade-down">{item.entête}</h3>
+                                        {item.type.map((subItem, subIndex) => (
+                                            <div key={subIndex}>
+                                                <label>{subItem.soustitre}</label>
+                                                {subItem.commentaire && <p data-aos="zoom-in">{subItem.commentaire}</p>}
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
-                                <p>{val.desc}</p>
-                                <p>{val.desc1}</p>
-                                <p>{val.desc2}</p>
-                                <p>{val.desc3}</p>
-                                <p>{val.desc4}</p>
-                                <div className="deuxBouton">
-                                    <a href="/contact">
-                                        <button>Contactez-moi</button>
-                                    </a>
-                                    <a href="/cv.pdf" download>
-                                        <button className="primaryBtn">Télécharger CV</button>
-                                    </a>                               
-                                </div>
-                            </div>
-                        </>
-                    ))}
+                            )
+                        })}
+                    </div>
                 </div>
             </section>
-            <div className="end br"></div>
         </>
     )
 }

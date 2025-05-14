@@ -8,17 +8,17 @@ export const Contact = () => {
             <br />
             <div className="contact">
                 <div className="container">
-                    <Heading title='Keep In Touch'/>
+                    <Heading title='Rester En Contact'/>
                     <div className="content flexsb">
                         <div className="right">
                             <form>
                                 <div className="flex">
-                                    <input type="text" placeholder='Name' data-aos="zoom-in-down"/>
+                                    <input type="text" placeholder='Nom' data-aos="zoom-in-down"/>
                                     <input type="email" placeholder='Email' data-aos="zoom-in-up"/>
                                 </div>
-                                <input className="inputSubject" type="text" placeholder='Subject' data-aos="zoom-in-up"/>
+                                <input className="inputSubject" type="text" placeholder='Sujet' data-aos="zoom-in-up"/>
                                 <textarea data-aos="zoom-in-down" name="" id="" cols="30" rows="10"></textarea>
-                                <button>Submit</button>
+                                <button>Soumettre</button>
                             </form>
                         </div>
                         <div className="left">
