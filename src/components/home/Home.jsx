@@ -19,8 +19,8 @@ export const Home = () => {
                 <Services></Services>
                 {/* <Counter></Counter> 
                 <Portfolio></Portfolio> 
-                <Testimonials></Testimonials>*/}
-                <Blog></Blog>
+                <Testimonials></Testimonials>
+                <Blog></Blog>*/}
                 <Formation></Formation>
                 <Compétences></Compétences>
                 <Contact></Contact>

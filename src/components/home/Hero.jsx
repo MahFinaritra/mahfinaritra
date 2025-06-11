@@ -15,7 +15,7 @@ export const Hero = () => {
                                 autoStart: true, loop: true }}/>
                         </h1>
                         <p data-aos="fade-left">{val.desc}</p>
-                        <a href="/cv.pdf" download>
+                        <a href="/Curriculum_Vitae.pdf" download>
                             <button className="primaryBtn" data-aos="fade-up-right">Télécharger CV</button>
                         </a>
                     </div>
